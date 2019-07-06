@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2, h3, h4 {
+    font-size: 10px;
+}
+
+
+.reservation input[type="text"] {
+    width: 80%;
+    border-top: 1px dashed #090B0D;
+    border-right: 2px dashed #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #090B0D;
+    margin: 10px 1em;
+    border-radius: 7px;
+}
+
+
+
+
