@@ -7,6 +7,8 @@
     border-radius: 30px;
 }
 
+
+
 .footer {
     text-align: center;
     font-weight: bold;
@@ -38,4 +40,100 @@ th {
     bottom: 8px;
     left: 16px;
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: navy;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: navy;
+    color: whitesmoke;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.column {
+    padding: 10px;
+    flex: 50%;
+    width: 150px;
+    color: brown;
+    height: 200px;
+}
+
+.row {
+    padding: 10px;
+    display: flex;
+}
+
+.click p {
+    font-size: 1rem;
+    color: black;
+}
+
+.click p:hover {
+    color: red;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+
+video {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.overlay-container {
+    position: relative;
+    width: 50%;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.overlay-container:hover video {
+    opacity: 0.3;
+}
+
+.overlay-container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #d37218;
+    color: #000000;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+
+
 
